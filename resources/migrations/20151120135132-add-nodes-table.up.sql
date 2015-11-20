@@ -1,0 +1,7 @@
+CREATE TABLE nodes (
+  id MEDIUMINT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(30),
+  description VARCHAR(200),
+  timestamp TIMESTAMP,
+  PRIMARY KEY (id)
+);
